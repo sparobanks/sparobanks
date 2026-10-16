@@ -5,16 +5,18 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/sparobanks"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://github.com/sparobanks?tab=repositories"><img src="https://img.shields.io/badge/Projects-Browse-24292f?style=flat-square&logo=github&logoColor=white" alt="Projects"></a>
-  <img src="https://img.shields.io/badge/Open%20to-AI%2FML%20Engineering%20roles-3fb68b?style=flat-square" alt="Open to AI/ML engineering roles">
+  <img src="https://img.shields.io/badge/Open%20to-AI%2FML%20%C2%B7%20Software%20Engineering%20%C2%B7%20Data%20Science-3fb68b?style=flat-square" alt="Open to AI/ML, software engineering and data science roles">
 </p>
 
 ## About me
 
-I'm a software developer and AI/ML engineer based in **Birmingham, UK**, finishing an **MSc in Computer Science & Technology at Ulster University**.
+I'm a software developer and AI/ML engineer based in **Birmingham, UK**, with an **MSc in Computer Science & Technology from Ulster University**.
+
+> 💼 **Open to opportunities** in **AI/ML engineering**, **software engineering** and **data science**.
 
 I build end-to-end AI systems: from data pipelines and models through to APIs, interfaces and deployment. I care most about the part many projects skip: **measuring how well a system really works, and making it safe for people to rely on**. That means calibrated confidence, evidence for every output, and a human in the loop where it matters.
 
-Alongside my studies, I'm the sole technical founder of several live products, which I design, build, deploy and run on my own infrastructure.
+I'm also the sole technical founder of several live products, which I design, build, deploy and run on my own infrastructure.
 
 - 🔭 **Focus:** computer vision, document AI, LLM applications, applied machine learning
 - 🧪 **Research interest:** how reliable LLMs and ML systems are under real-world pressure
@@ -144,4 +146,4 @@ All self-hosted on Linux servers I manage, with Nginx, PM2, Docker and Cloudflar
 - **Keep people in control.** Automate the repetitive work, and route the uncertain cases to a human.
 - **Ship it.** A model in a notebook helps nobody, so I take projects through to deployment.
 
-<p align="center"><sub>Thanks for visiting. If any of this is relevant to your team, I'd be glad to talk.</sub></p>
+<p align="center"><sub>Thanks for visiting. I'm open to AI/ML, software engineering and data science roles, so if any of this is relevant to your team, I'd be glad to talk.</sub></p>
