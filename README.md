@@ -97,9 +97,7 @@ Big-data analysis of how air pollution and deprivation relate to mortality acros
 | Product | What it is |
 |---|---|
 | [**Journey2UK**](https://journey2uk.com) | UK visa-sponsorship jobs and scholarships portal with automated vacancy collection, an AI-assisted editorial workflow, an MCP server for LLM clients, and Android and iOS apps |
-| [**Indexberg**](https://indexberg.com) | Financial intelligence platform with live exchange rates, ML trading signals and tiered subscriptions |
-| [**MyStreet News**](https://mystreet.news) | Multi-country news platform with a local community layer and mobile apps |
-| [**SparoPet**](https://sparopet.com) | Pet health platform built around a digital health profile linked to NFC and QR tags |
+| [**MyStreet News**](https://mystreet.news) | Multi-country news platform with a local community layer and mobile apps (Android and iOS apps) |
 
 All self-hosted on Linux servers I manage, with Nginx, PM2, Docker and Cloudflare.
 
