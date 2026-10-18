@@ -18,7 +18,7 @@ I build end-to-end AI systems: from data pipelines and models through to APIs, i
 
 I'm also the sole technical founder of several live products, which I design, build, deploy and run on my own infrastructure.
 
-- 🔭 **Focus:** computer vision, document AI, LLM applications, applied machine learning
+- 🔭 **Focus:** physics-informed ML, computer vision, document AI, LLM applications and applied machine learning
 - 🧪 **Research interest:** how reliable LLMs and ML systems are under real-world pressure
 - 🚀 **Ships:** production apps on self-managed Linux servers, with Docker, Nginx and CI
 - 📫 **Reach me:** via [LinkedIn](https://www.linkedin.com/in/sparobanks)
@@ -31,6 +31,16 @@ I'm also the sole technical founder of several live products, which I design, bu
 <tr>
 <td width="50%" valign="top">
 
+### ⚓ [HullForge](https://github.com/sparobanks/hullforge)
+Physics-informed AI for early-stage ship hull design: a resistance solver, neural surrogates with calibrated uncertainty, generative hull design, NSGA-II optimisation and wind-assisted propulsion.
+
+**0.2%** error on ships larger than any it trained on (black-box network: 8.5%) · **5,000x** faster than the solver
+
+`PyTorch` `pymoo` `SciPy` `Streamlit`
+
+</td>
+<td width="50%" valign="top">
+
 ### 🔌 [SpecSight](https://github.com/sparobanks/specsight)
 AI estimating assistant for electrical switchgear tenders. Reads engineering drawings and specs, cross-checks them, and prices the job, with a person confirming anything uncertain.
 
@@ -39,6 +49,8 @@ AI estimating assistant for electrical switchgear tenders. Reads engineering dra
 `OpenCV` `Tesseract` `scikit-learn` `FastAPI` `Docker`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🧠 [The Conformity Problem](https://github.com/sparobanks/conformity-llm)
@@ -49,8 +61,6 @@ Found Llama 3 70B conformed on **20.1%** of maths questions, with expert-authori
 `LLM evaluation` `Python` `Experimental design`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 📄 [AI Product Metadata Platform](https://github.com/sparobanks/ai-product-metadata-platform)
@@ -59,16 +69,18 @@ Ingests supplier PDFs and images, extracts structured product data with OCR fall
 `FastAPI` `OCR` `sentence-transformers` `RAG` `PostgreSQL`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 📈 [AlphaForexAI](https://github.com/sparobanks/alphaforexai)
-Full-stack forex signals platform: market data ingestion, feature engineering, XGBoost models, a rules engine, a signals API and a live dashboard with Telegram and email alerts.
+Live forex signals SaaS: market data ingestion, feature engineering, XGBoost models, a rules engine, a signals API and a dashboard with Telegram and email alerts, plus paid subscriptions.
+
+🌐 Live: [alphaforexai.com](https://alphaforexai.com)
 
 `XGBoost` `FastAPI` `PostgreSQL` `Next.js` `Docker`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🚗 [Driver Drowsiness Detection](https://github.com/sparobanks/driver-drowsiness-detection-system)
@@ -77,12 +89,24 @@ Real-time driver monitoring from a webcam: detects drowsiness, yawning and distr
 `OpenCV` `MediaPipe` `Streamlit`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🌫️ [Air Quality & Mortality Analysis](https://github.com/sparobanks/Air-Quality-and-Mortality-Analysis)
 Big-data analysis of how air pollution and deprivation relate to mortality across areas, using Spark for processing and clear visual reporting.
 
 `Apache Spark` `PySpark` `Pandas`
+
+</td>
+<td width="50%" valign="top">
+
+### 💳 [Loan Default Prediction](https://github.com/sparobanks/Loan-Default-Prediction-Using-Machine-Learning-Streamlit-App-Included)
+End-to-end credit risk model on the Home Credit dataset, from exploration and feature engineering to a Streamlit app that scores applicants in real time.
+
+LightGBM model with **0.80 ROC-AUC**.
+
+`LightGBM` `scikit-learn` `Pandas` `Streamlit`
 
 </td>
 </tr>
@@ -97,6 +121,7 @@ Big-data analysis of how air pollution and deprivation relate to mortality acros
 | Product | What it is |
 |---|---|
 | [**Journey2UK**](https://journey2uk.com) | UK visa-sponsorship jobs and scholarships portal with automated vacancy collection, an AI-assisted editorial workflow, an MCP server for LLM clients, and Android and iOS apps |
+| [**AlphaForexAI**](https://alphaforexai.com) | AI forex signals platform with XGBoost models, a public signals API, Telegram and email alerts, and Stripe subscriptions |
 | [**MyStreet News**](https://mystreet.news) | Multi-country news platform with a local community layer and mobile apps (Android and iOS apps) |
 
 All self-hosted on Linux servers I manage, with Nginx, PM2, Docker and Cloudflare.
