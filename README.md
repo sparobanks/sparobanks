@@ -18,7 +18,7 @@ I build end-to-end AI systems: from data pipelines and models through to APIs, i
 
 I'm also the sole technical founder of several live products, which I design, build, deploy and run on my own infrastructure.
 
-- 🔭 **Focus:** physics-informed ML, computer vision, document AI, LLM applications and applied machine learning
+- 🔭 **Focus:** computer vision, physics-informed ML, document AI, LLM applications and applied machine learning
 - 🧪 **Research interest:** how reliable LLMs and ML systems are under real-world pressure
 - 🚀 **Ships:** production apps on self-managed Linux servers, with Docker, Nginx and CI
 - 📫 **Reach me:** via [LinkedIn](https://www.linkedin.com/in/sparobanks)
@@ -31,6 +31,16 @@ I'm also the sole technical founder of several live products, which I design, bu
 <tr>
 <td width="50%" valign="top">
 
+### 🚗 [RepairLens](https://github.com/sparobanks/RepairLens)
+Computer vision for vehicle damage assessment with a person in the loop. Outlines damage in a photo, drafts a repair estimate, and sends the photos it's unsure about to an estimator, whose corrections become training data.
+
+Found an **84%** train/test leak in the public dataset · auto-accepts **12%** of photos at **75%** accuracy (3x the base rate)
+
+`YOLO11` `PyTorch` `OpenCV` `FastAPI` `Streamlit`
+
+</td>
+<td width="50%" valign="top">
+
 ### ⚓ [HullForge](https://github.com/sparobanks/hullforge)
 Physics-informed AI for early-stage ship hull design: a resistance solver, neural surrogates with calibrated uncertainty, generative hull design, NSGA-II optimisation and wind-assisted propulsion.
 
@@ -39,6 +49,8 @@ Physics-informed AI for early-stage ship hull design: a resistance solver, neura
 `PyTorch` `pymoo` `SciPy` `Streamlit`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🔌 [SpecSight](https://github.com/sparobanks/specsight)
@@ -49,8 +61,6 @@ AI estimating assistant for electrical switchgear tenders. Reads engineering dra
 `OpenCV` `Tesseract` `scikit-learn` `FastAPI` `Docker`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🧠 [The Conformity Problem](https://github.com/sparobanks/conformity-llm)
@@ -61,6 +71,8 @@ Found Llama 3 70B conformed on **20.1%** of maths questions, with expert-authori
 `LLM evaluation` `Python` `Experimental design`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 📄 [AI Product Metadata Platform](https://github.com/sparobanks/ai-product-metadata-platform)
@@ -69,8 +81,6 @@ Ingests supplier PDFs and images, extracts structured product data with OCR fall
 `FastAPI` `OCR` `sentence-transformers` `RAG` `PostgreSQL`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 📈 [AlphaForexAI](https://github.com/sparobanks/alphaforexai)
@@ -81,16 +91,16 @@ Live forex signals SaaS: market data ingestion, feature engineering, XGBoost mod
 `XGBoost` `FastAPI` `PostgreSQL` `Next.js` `Docker`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
-### 🚗 [Driver Drowsiness Detection](https://github.com/sparobanks/driver-drowsiness-detection-system)
+### 👁️ [Driver Drowsiness Detection](https://github.com/sparobanks/driver-drowsiness-detection-system)
 Real-time driver monitoring from a webcam: detects drowsiness, yawning and distraction from facial landmarks, raises alerts, and logs events to an analytics dashboard.
 
 `OpenCV` `MediaPipe` `Streamlit`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🌫️ [Air Quality & Mortality Analysis](https://github.com/sparobanks/Air-Quality-and-Mortality-Analysis)
@@ -99,6 +109,8 @@ Big-data analysis of how air pollution and deprivation relate to mortality acros
 `Apache Spark` `PySpark` `Pandas`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 💳 [Loan Default Prediction](https://github.com/sparobanks/Loan-Default-Prediction-Using-Machine-Learning-Streamlit-App-Included)
@@ -107,6 +119,16 @@ End-to-end credit risk model on the Home Credit dataset, from exploration and fe
 LightGBM model with **0.80 ROC-AUC**.
 
 `LightGBM` `scikit-learn` `Pandas` `Streamlit`
+
+</td>
+<td width="50%" valign="top">
+
+### 🗂️ [Leak-free Car Damage Dataset](https://github.com/sparobanks/car-damage-leakfree)
+A cleaned re-split of a public car damage segmentation dataset. Copies of the same photo are kept together, so the test set holds only photos a model has never seen.
+
+**3,390** images from **1,553** original photos · CC BY 4.0
+
+`Dataset` `Data quality` `Perceptual hashing`
 
 </td>
 </tr>
@@ -138,6 +160,7 @@ All self-hosted on Linux servers I manage, with Nginx, PM2, Docker and Cloudflar
 ![XGBoost](https://img.shields.io/badge/XGBoost-1F6FEB?style=flat-square)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLO-Ultralytics-111F68?style=flat-square)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
